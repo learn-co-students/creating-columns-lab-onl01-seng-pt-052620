@@ -2,12 +2,19 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.2)
+    date (2.0.0)
+    did_you_mean (1.4.0)
     diff-lcs (1.3)
+    etc (1.1.0)
+    fileutils (1.4.1)
+    forwardable (1.2.0)
+    ipaddr (1.2.2)
     json (2.1.0)
     method_source (0.9.0)
     mini_portile2 (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    openssl (2.1.2)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -24,18 +31,31 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
+    stringio (0.0.2)
+    strscan (1.0.3)
     w3c_validators (1.3.3)
       json (>= 1.8)
       nokogiri (~> 1.6)
+    zlib (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  date (~> 2.0)
+  did_you_mean (~> 1.4)
+  etc (~> 1.1)
+  fileutils (~> 1.4, >= 1.4.1)
+  forwardable (~> 1.2)
+  ipaddr (~> 1.2, >= 1.2.2)
   nokogiri
+  openssl (~> 2.1, >= 2.1.2)
   pry
   rspec
+  stringio (~> 0.0.2)
+  strscan (~> 1.0, >= 1.0.3)
   w3c_validators
+  zlib (~> 1.1)
 
 BUNDLED WITH
    1.16.1
